@@ -1,6 +1,5 @@
 class Coin () :
     def __init__(self,crc=8,code="000000") :
-        print "LANDED"
         self.accept_enable=0
         self.mech_address = 2
         self.event_number =0
